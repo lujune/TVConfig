@@ -1,0 +1,70 @@
+{
+  "name": "聚合直播源库",
+  "version": "1.0",
+  "author": "你的GitHub配置库",
+  "description": "收集自网络的最新直播源接口，包含直连频道与聚合接口",
+  "updated": "2024-03-15",
+  "data": [
+    {
+      "category": "推荐直播源",
+      "sources": [
+        {
+          "name": "七星直播",
+          "url": "https://qixing.myhkw.com/QX/lib/live.txt"
+        },
+        {
+          "name": "肥猫直播",
+          "url": "http://我不是.肥猫.live/TV/tvzb.txt"
+        },
+        {
+          "name": "时光机稳定版",
+          "url": "https://www.bestpvp.site/tm/stable/live_stable.txt"
+        },
+        {
+          "name": "小齐直播",
+          "url": "https://raw.gitcode.com/xiaoqi719/yingshi/raw/main/zhibo.txt"
+        },
+        {
+          "name": "华影视直播",
+          "url": "https://download.kstore.space/download/4077/dzbzb.txt"
+        }
+      ]
+    },
+    {
+      "category": "备用直播源",
+      "sources": [
+        {
+          "name": "月光宝盒直播",
+          "url": "https://agit.ai/guot54/ygbh/raw/branch/master/zB/zB.txt"
+        },
+        {
+          "name": "西夏直播 (需密码:0204)",
+          "url": "http://wl.iptv8.top/wl/a/1707048974.txt",
+          "remark": "密码可能在应用内输入"
+        },
+        {
+          "name": "整挺好直播",
+          "url": "https://s2.pub/ZTHAIPTV21"
+        }
+      ]
+    },
+    {
+      "category": "直播接口源",
+      "description": "这些是第三方维护的直播源集合地址，可作为备用更新源",
+      "sources": [
+        {
+          "name": "IPv6高清源",
+          "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u"
+        },
+        {
+          "name": "IPTV综合源",
+          "url": "https://raw.githubusercontent.com/izhangbao/IPTV/main/IPTV.m3u"
+        },
+        {
+          "name": "YueChan直播源",
+          "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u"
+        }
+      ]
+    }
+  ]
+}
