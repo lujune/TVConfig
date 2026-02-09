@@ -1,0 +1,44 @@
+{
+  "name": "影视点播接口聚合",
+  "version": "1.0",
+  "author": "你的GitHub配置库",
+  "description": "聚合多个稳定影视点播接口，涵盖不同片源",
+  "updated": "2024-03-15",
+  "configs": [
+    {
+      "name": "肥猫接口",
+      "url": "http://肥猫.live",
+      "type": "tvbox",
+      "remark": "多个来源提及，稳定性较好。部分地址支持中文域名。",
+      "category": "推荐"
+    },
+    {
+      "name": "俊哥接口",
+      "url": "http://home.jundie.top:81/top98.json",
+      "type": "json",
+      "remark": "常用接口之一，片源更新较快。",
+      "category": "推荐"
+    },
+    {
+      "name": "巧儿/胖虎接口",
+      "url": "http://pandown.pro/tvbox/tvbox.json",
+      "type": "json",
+      "remark": "同地址在不同来源中名称不同，线路稳定。",
+      "category": "推荐"
+    },
+    {
+      "name": "4K云盘接口",
+      "url": "https://9xi4o.tk/0725.json",
+      "type": "json",
+      "remark": "可能包含高清或4K片源。",
+      "category": "高清"
+    },
+    {
+      "name": "胖虎接口 (备用)",
+      "url": "https://notabug.org/imbig66/tv-spider-man/raw/master/配置/0801.json",
+      "type": "json",
+      "remark": "备用线路，当主接口失效时可切换至此。",
+      "category": "备用"
+    }
+  ]
+}
