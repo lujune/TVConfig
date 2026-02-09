@@ -1,0 +1,14 @@
+{
+  "name": "我的配置1",
+  "urls": [
+    {
+      "name": "资源11",
+      "url": "http://example.com/api/v1"
+    },
+    {
+      "name": "资源12", 
+      "url": "http://example2.com/api"
+    }
+  ],
+  "updateTime": "2024-01-01"
+}
